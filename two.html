@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="two.css">
+    <style>
+        label{
+            margin-left: -70px;
+        }
+        input {
+            margin-top: 10px;
+            margin-left: -70px;
+            padding: 0px 80px;
+        }
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 145px;
+            margin-top: 10px;
+        }
+        button{
+            margin-top: 10px;
+            margin-left: -70px;
+            padding: 0px 142px;
+            background-color: black;
+            color: aliceblue;
+        }
+        .container{
+            width: 400px;
+            height: 380px;
+            border: solid black;
+            position: absolute;
+            top: 70px;
+            left: 380px;
+            background-color: white;
+        }
+        .main{
+            margin-left: 110px;
+        }
+        .outer{
+            background-color: black;
+            width: 100%;
+            height: 500px;
+        }
+        select{
+            padding: 0px 123px;
+            margin-left: -70px;
+            
+        }
+    </style>
+</head>
+<body >
+    <div class="outer">
+     <div class="container">
+
+        <h1>Signup</h1>
+          <form class="main" action="">
+            <label for="">Name:</label><br>
+            <input type="text" name="" id="Name"><br>
+            <label for="batch">Batch:</label><br>
+            <select name="" id="batch">
+                <option value="#"></option>
+                <option value="sigma 2.0">Sigma 2.0</option>
+                <option value="sigma 1.0">Sigma 1.0</option>
+            </select><br>
+          
+            <label for="Age">Age:</label><br>
+            <input type="text" name="" id="Age"><br>
+            <label for="Email">Email:</label><br>
+            <input type="text" name="" id="Email"><br>
+            <label for="Password">Password:</label><br>
+            <input type="text" name="" id="Password"><br>
+           <button type="submit">Submit</button>
+          </form>
+     </div>
+    </div>
+</body>
+</html>

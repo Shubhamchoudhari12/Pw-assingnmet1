@@ -1,0 +1,43 @@
+
+label{
+    margin-left: -70px;
+}
+input {
+    margin-top: 10px;
+    margin-left: -70px;
+    padding: 0px 80px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 145px;
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    margin-left: -70px;
+    padding: 0px 142px;
+    background-color: black;
+    color: aliceblue;
+}
+.container{
+    width: 400px;
+    height: 380px;
+    border: solid black;
+    position: absolute;
+    top: 70px;
+    left: 380px;
+    background-color: white;
+}
+.main{
+    margin-left: 110px;
+}
+.outer{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+select{
+    padding: 0px 123px;
+    margin-left: -70px;
+    
+}
